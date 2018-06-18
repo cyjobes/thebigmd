@@ -1,0 +1,54 @@
+.content-wrapper {
+    margin: 0 auto;
+}
+
+#logo,
+#social,
+#coming_soon
+{
+    text-align: center;
+}
+
+
+#coming_soon {
+    border: 5px dashed #636b6f;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+#social {
+    cursor: pointer;
+}
+
+#social .float-container {
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#facebook-icon {
+    margin-right: 3px;
+}
+
+
+#player {
+    text-align: center;
+    margin: 0 auto;
+    border: #cccccc dotted 3px;
+    max-width: 550px;
+    min-width: 320px;
+    padding: 4px;
+}
+
+
+#nowplaying {
+    padding-top: 6px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.party-line {
+    text-align: center;
+    color: #ff00de;
+}
