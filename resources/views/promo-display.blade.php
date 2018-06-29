@@ -7,7 +7,7 @@
 <br>
 
 <div id="coming_soon">
-    <h4>Another Live Show is coming soon.</h4>
+    <h4>LIVE SHOW - Saturday, June 30th - 8pm Eastern</h4>
 </div>
 
 <br>
