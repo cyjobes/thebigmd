@@ -25,4 +25,4 @@
         <source src="http://cyrus.isa-geek.com:8090/?type=http" type="audio/mpeg" preload="auto">
     </audio>
 </div>
-<div id="nowplaying">Five Finger Death Punch - Trip Switch</div>
+<div id="nowplaying">Uh oh. It's broke!</div>
