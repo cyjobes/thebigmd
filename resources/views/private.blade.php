@@ -1,6 +1,6 @@
 @extends('bigmd-layout')
 
-
+@section('content')
 <div id="logo">
     <img src="/images/standard-logo01.png">
 </div>
@@ -12,3 +12,4 @@
     </audio>
 </div>
 <div id="nowplaying">Five Finger Death Punch - Trip Switch</div>
+@endsection
