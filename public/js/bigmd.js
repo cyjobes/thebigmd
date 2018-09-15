@@ -26,8 +26,11 @@ function getNowPlaying() {
 
 
 function displayNowShowing(result) {
+    var artist_info = result.split(" - ");
     //console.log(parseInt(result.durationinSeconds) + "000");
-    //console.log(result);
+    $("#bigmd_title").val(artist_info[1]);
+    $('meta[name="description"]').attr("content", artist_info[1]);
+    $('meta[name="author"]').attr("content", artist_info[0]);
     /*
     if (result.durationinSeconds < 20000) {
         timer = 1000;
@@ -35,11 +38,14 @@ function displayNowShowing(result) {
         timer = parseInt(result.durationinSeconds) + "000";
     }
     */
+
+
     timer = 5000;
     if (now_playing != result) {
         $("#nowplaying").html(result);
         now_playing = result;
     }
     setTimeout("getNowPlaying()", timer);
+    //console.log($('meta[name="author"]').prop("content"));
 }
 
