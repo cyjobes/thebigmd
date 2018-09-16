@@ -28,7 +28,7 @@ function getNowPlaying() {
 function displayNowShowing(result) {
     var artist_info = result.split(" - ");
     //console.log(parseInt(result.durationinSeconds) + "000");
-    $("#bigmd_title").val(artist_info[1]);
+    $("#bigmd_title").html(artist_info[1]);
     $('meta[name="description"]').attr("content", artist_info[1]);
     $('meta[name="author"]').attr("content", artist_info[0]);
     /*
